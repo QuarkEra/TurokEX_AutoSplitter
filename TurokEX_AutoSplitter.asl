@@ -23,6 +23,19 @@ startup
 	settings.Add("the final confrontation", true, "The Final Confontation");
 }
 
+init
+{
+
+}
+
+exit
+{
+
+}
+
+update
+{
+
 }
 
 start // Starts the timer when moving from the title screen to another level
@@ -48,4 +61,14 @@ split // Splits when travelling *from* the hub *to* another level and last when 
 	|| current.Level == "ending" 
 	// || current.Level == "the final confrontation" && current.campaignerHp == 0 // splits on entering level 8 OR when killing the campaigner having warped there bypassing level 8 :( would prefer to split on campaigner death separately obviously
 	);
+}
+
+gameTime
+{
+
+}
+
+isLoading
+{
+
 }
