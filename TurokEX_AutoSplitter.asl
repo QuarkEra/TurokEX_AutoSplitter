@@ -57,9 +57,9 @@ split // Splits when travelling *from* the hub *to* another level and last when 
 	|| old.Level == "the hub" && current.Level == "the catacombs" 
 	|| old.Level == "the hub" && current.Level == "the treetop village" 
 	|| old.Level == "the hub" && current.Level == "the lost land" 
-	|| old.Level == "the hub" && current.Level == "the final confrontation" 
-	|| current.Level == "ending" 
-	// || current.Level == "the final confrontation" && current.campaignerHp == 0 // splits on entering level 8 OR when killing the campaigner having warped there bypassing level 8 :( would prefer to split on campaigner death separately obviously
+	// || old.Level == "the hub" && current.Level == "the final confrontation" 
+	// || current.Level == "ending" 
+	|| current.Level == "the final confrontation" && current.campaignerHp == 0 // splits on entering level 8 OR when killing the campaigner having warped there bypassing level 8 :( would prefer to split on campaigner death separately obviously
 	);
 }
 
