@@ -1,4 +1,6 @@
 # TurokEX_AutoSplitter
+Another has taken up the mantle and improved the autosplitter. Downloading the autosplitter from liveslpit should give you the newer improved version. This document has been left intact.
+
 Auto Splitter for Turok: Dinosaur Hunter PC Remaster by Night Dive Studios featuring auto start/split/reset
 
 	
